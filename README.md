@@ -2,18 +2,18 @@
 
 Code for individualized treatment effect (ITE) estimation for imbalanced data.
 
-## prerequisites
-
-The algorithm is built with:
-
-* Python (version 3.7 or higher)
-* Tensorflow (version 1.14.0)
-
 Clone the repository, e.g:
 
 ```
 git clone https://github.com/DannieLu/BV-NICE.git
 ```
+
+## Prerequisites
+
+The algorithm is built with:
+
+* Python (version 3.7 or higher)
+* Tensorflow (version 1.14.0)
 
 ## Running the example dataset
 
@@ -23,8 +23,7 @@ Here we present an example of BVNICE application using IHDP data
 python bvnice_example.py
 ```
 
-
-Source code for [the paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
+## Cite [the paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
 
 ```
 @article{lu2020reconsidering,
