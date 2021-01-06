@@ -72,4 +72,4 @@ pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 ACIC : https://jenniferhill7.wixsite.com/acic-2016/competition 
 IHDP1000: Originally from http://mit.edu/~fredrikj/files/IHDP-1000.tar.gz Since the original link no longer works, we provide a copy here for completeness. Please contact us if there is any redistribution concern. 
 JOBS: https://github.com/d909b/perfect_match/tree/master/perfect_match/data_access/jobs 
-NDS SHRP2: https://insight.shrp2nds.us (Need to apply for access (e.g., subbmitting research proposal))
+NDS SHRP2: https://insight.shrp2nds.us (Need to apply for access (e.g., submitting research proposal))
