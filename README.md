@@ -29,6 +29,26 @@ Here we present an example of BVNICE application using IHDP data
 python bvnice_example.py
 ```
 
+## Installing third-party packages
+Some of our baseline models (e.g., BART, Causal Forest, GANITE) are based on third party implementations. We try to provide all native python implementations of competing models rather than calling R libraries as in the perfect_match package. Note some of these implementations are from unstable development versions of the packages, and we did find compatibility issues when we run the experiments. Please use the following commands to install the versions we have installed and used in our experiments. If they do not run successfully on your computer, just try it on another machine (with a different OS or python environment). 
+
+We have used the BART python implementation from [bartpy](https://github.com/JakeColtman/bartpy)
+```
+pip3 install git+https://github.com/JakeColtman/bartpy.git@ReadOneTrees --upgrade
+```
+
+We have used the Causal Forest model (propensity forest & double-sample forest) from a dev version of [scikit-learn](https://github.com/kjung/scikit-learn) 0.18.
+```
+pip3 install git+https://github.com/kjung/scikit-learn.git --upgrade
+```
+
+The GANITE implementation was extracted from the [perfect_match](https://github.com/d909b/perfect_match) package . So you do not really need to install the perfect_match package to run our experiments, but we strongly recommend so. 
+```
+pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
+```
+
+
+
 ## Citation
 
 If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
