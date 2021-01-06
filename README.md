@@ -1,7 +1,9 @@
 # BV-NICE: Balancing Variational Neural Inference of Causal Effects
 
-This is the official code repository for the paper * Reconsidering Generative Objectives For Counterfactual Reasoning
-* published in NeurIPS 2020 [link](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf).
+This is the official code repository for the NeurIPS 2020 paper [link](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf)
+
+```Reconsidering Generative Objectives For Counterfactual Reasoning
+```
 
 Code for individualized treatment effect (ITE) estimation for imbalanced data.
 
