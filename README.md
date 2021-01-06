@@ -68,7 +68,7 @@ The GANITE implementation was extracted from the [perfect_match](https://github.
 pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 ```
 
-We use the CFR implementation from [https://github.com/clinicalml/cfrnet].
+We have used the CFR implementation from https://github.com/clinicalml/cfrnet.
 
 ## Datasets
 * ACIC : https://jenniferhill7.wixsite.com/acic-2016/competition 
