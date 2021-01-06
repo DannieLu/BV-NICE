@@ -1,8 +1,11 @@
 # BV-NICE: Balancing Variational Neural Inference of Causal Effects
 
+This is the official code repository for the paper * Reconsidering Generative Objectives For Counterfactual Reasoning
+* published in NeurIPS 2020 [link](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf).
+
 Code for individualized treatment effect (ITE) estimation for imbalanced data.
 
-Clone the repository, e.g:
+You can clone this repository by running: 
 
 ```
 git clone https://github.com/DannieLu/BV-NICE.git
@@ -23,7 +26,9 @@ Here we present an example of BVNICE application using IHDP data
 python bvnice_example.py
 ```
 
-## Cite [the paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
+## Citation
+
+If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
 
 ```
 @article{lu2020reconsidering,
