@@ -49,13 +49,6 @@ The algorithm is built with:
 * Python (version 3.7 or higher)
 * Tensorflow (version 1.14.0)
 
-## Running the example dataset
-
-Here we present an example of BVNICE application using IHDP data
-
-```
-python bvnice_example.py
-```
 
 ## Installing third-party packages
 Some of our baseline models (e.g., BART, Causal Forest, GANITE) are based on third party implementations. We try to provide all native python implementations of competing models rather than calling R libraries as in the perfect_match package. Note some of these implementations are from unstable development versions of the packages, and we did find compatibility issues when we run the experiments. Please use the following commands to install the versions we have installed and used in our experiments. If they do not run successfully on your computer, just try it on another machine (with a different OS or python environment). 
