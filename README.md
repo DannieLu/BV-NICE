@@ -51,7 +51,7 @@ The algorithm is built with:
 
 
 ## Installing third-party packages
-Some of our baseline models (e.g., BART, Causal Forest, GANITE) are based on third party implementations. We try to provide all native python implementations of competing models rather than calling R libraries as in the perfect_match package. Note some of these implementations are from unstable development versions of the packages, and we did find compatibility issues when we run the experiments. Please use the following commands to install the versions we have installed and used in our experiments. If they do not run successfully on your computer, just try it on another machine (with a different OS or python environment). 
+Some of our baseline models (e.g., BART, Causal Forest, GANITE, CFR) are based on third party implementations. We try to provide all native python implementations of competing models rather than calling R libraries as in the perfect_match package. Note some of these implementations are from unstable development versions of the packages, and we did find compatibility issues when we run the experiments. Please use the following commands to install the versions we have installed and used in our experiments. If they do not run successfully on your computer, just try it on another machine (with a different OS or python environment). 
 
 We have used the BART python implementation from [bartpy](https://github.com/JakeColtman/bartpy)
 ```
@@ -67,6 +67,8 @@ The GANITE implementation was extracted from the [perfect_match](https://github.
 ```
 pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 ```
+
+We use the CFR implementation from [https://github.com/clinicalml/cfrnet].
 
 ## Datasets
 * ACIC : https://jenniferhill7.wixsite.com/acic-2016/competition 
