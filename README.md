@@ -33,7 +33,7 @@ This repository contains the following contents.
 Jupter notebook examples of our BV-NICE model and various baselines (CFR, BART, R-learner, EB-learner, Causal Forest, GANITE, etc.). 
 
 #### - Experiment codes
-Python codes used for our experiments. For example, to run BV-NICE model with IHDP dataset 0, use the "BVNICE.py" file in folder: Experiments\IHDP\
+Python codes used for our experiments. For example, to run BV-NICE model with IHDP dataset ```0```, use the "BVNICE.py" file in folder: Experiments\IHDP\
 ```
 python BVNICE.py 0
 ```
