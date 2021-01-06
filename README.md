@@ -2,7 +2,7 @@
 
 This is the official repository for the NeurIPS 2020 paper [Reconsidering Generative Objectives For Counterfactual Reasoning](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf) 
 
-BV-NICE is designed for individualized treatment effect (ITE) estimation for observational causal inference.
+BV-NICE is a novel generative Bayesian estimation framework that integrates representation learning, adversarial matching and causal estimation. It is designed for individualized treatment effect (ITE) estimation (a.k.a, conditional average treatment effect (CATE), heterogeneous treatment effect (HTE)) for observational causal inference. Existing solutions often fail to address issues that are unique to causal inference, such as covariate balancing and counterfactual validation. By appealing to the Robinson decomposition, BV-NICE exploits a reformulated variational bound that explicitly targets the causal effect estimation rather than specific predictive goals. Our procedure acknowledges the uncertainties in representation and solves a Fenchel mini-max game to resolve the representation imbalance for better counterfactual generalization, justified by new theory.The latent variable formulation enables robustness to unobservable latent confounders, extending the scope of its applicability.
 
 You can clone this repository by running: 
 
