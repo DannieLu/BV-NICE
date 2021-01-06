@@ -18,13 +18,13 @@ git clone https://github.com/DannieLu/BV-NICE.git
 
 This repository contains the following contents. 
 
-### Jupyter notebooks
+#### - Jupyter notebooks
 Jupter notebook examples of our BV-NICE model and various baselines (CFR, BART, R-learner, EB-learner, Causal Forest, GANITE, etc.). 
 
-### Experiment codes
+#### - Experiment codes
 Python codes used for our experiments. 
 
-### Results and visualization
+#### - Results and visualization
 Python codes used for the visualization of our results. 
 
 ## Prerequisites
