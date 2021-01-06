@@ -14,6 +14,21 @@ You can clone this repository by running:
 git clone https://github.com/DannieLu/BV-NICE.git
 ```
 
+
+## Citation
+
+If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
+
+```
+@article{lu2020reconsidering,
+  title={Reconsidering Generative Objectives For Counterfactual Reasoning},
+  author={Lu, Danni and Tao, Chenyang and Chen, Junya and Li, Fan and Guo, Feng and Carin, Lawrence},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
+```
+
 ## Contents
 
 This repository contains the following contents. 
@@ -58,21 +73,5 @@ pip3 install git+https://github.com/kjung/scikit-learn.git --upgrade
 The GANITE implementation was extracted from the [perfect_match](https://github.com/d909b/perfect_match) package . So you do not really need to install the perfect_match package to run our experiments, but we strongly recommend so. 
 ```
 pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
-```
-
-
-
-## Citation
-
-If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
-
-```
-@article{lu2020reconsidering,
-  title={Reconsidering Generative Objectives For Counterfactual Reasoning},
-  author={Lu, Danni and Tao, Chenyang and Chen, Junya and Li, Fan and Guo, Feng and Carin, Lawrence},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
-}
 ```
 
