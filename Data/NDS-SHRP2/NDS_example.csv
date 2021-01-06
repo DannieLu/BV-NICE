@@ -1,0 +1,10 @@
+eventID,driver_id,event,trafficDensity2,relationToJunction,lighting,age,weather,surfaceCondition2,trafficFlow2,intersectionInfluence2,constructionZone2,income,locality,sex,disctraction
+******,*****,0,Free_Flow,Non-junction,Daylight,16,Normal,Dry,Divided,No,FALSE,10k,Highway,F,0
+******,*****,0,Free_Flow,Non-junction,Daylight,20,Rain_Fog,Wet,Divided,No,FALSE,10k-30k,Local,F,1
+******,*****,0,Free_Flow,Intersection,Daylight,29,Normal,Dry,Not_Divided,Yes,FALSE,10k-30k,Local,F,0
+******,*****,0,Stable_Flow,Non-junction,Darkness,30,Normal,Dry,Divided,No,FALSE,10k-30k,Highway,M,0
+******,*****,1,Stable_Flow,Non-junction,Daylight,50,Normal,Dry,Not_Divided,No,FALSE,10k-30k,Local,M,0
+******,*****,0,Free_Flow,Intersection,Darkness,55,Normal,Wet,Not_Divided,Yes,TRUE,10k-30k,Local,F,0
+******,*****,2,Free_Flow,Non-junction,Daylight,34,Normal,Wet,Not_Divided,No,FALSE,10k-30k,Local,F,0
+******,*****,0,Free_Flow,other,Daylight,52,Normal,Dry,Not_Divided,No,FALSE,30k-50k,Local,F,1
+******,*****,0,Free_Flow,Non-junction,Daylight,34,Normal,Dry,Not_Divided,No,FALSE,10k-30k,Local,M,0

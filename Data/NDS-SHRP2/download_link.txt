@@ -1,0 +1,2 @@
+The data can be acquired at SHRP2 NDS Insight: https://insight.shrp2nds.us. 
+A data use license application (requires IRB approval, data specification, and a data security plan) will need to be completed. 
