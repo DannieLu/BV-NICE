@@ -2,7 +2,7 @@
 
 This is the official repository for the NeurIPS 2020 paper [Reconsidering Generative Objectives For Counterfactual Reasoning](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf) 
 
-Code for individualized treatment effect (ITE) estimation for imbalanced data.
+BV-NICE is designed for individualized treatment effect (ITE) estimation for observational causal inference.
 
 You can clone this repository by running: 
 
