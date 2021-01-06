@@ -71,6 +71,7 @@ pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 We have used the CFR implementation from https://github.com/clinicalml/cfrnet.
 
 ## Datasets
+The datasets used in our experiments can be accessed from the following links. 
 * ACIC : https://jenniferhill7.wixsite.com/acic-2016/competition 
 * IHDP1000: Originally from http://mit.edu/~fredrikj/files/IHDP-1000.tar.gz 
   * The original link no longer works, so we have provided a copy in our repo for completeness. Please contact us if there is any redistribution concern. 
