@@ -1,17 +1,28 @@
 # BV-NICE: Balancing Variational Neural Inference of Causal Effects
 
-This is the official code repository for the NeurIPS 2020 paper [link](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf)
+This is the official repository for the NeurIPS 2020 paper [Reconsidering Generative Objectives For Counterfactual Reasoning](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf) 
 
-```
-Reconsidering Generative Objectives For Counterfactual Reasoning
-```
-
-Code for individualized treatment effect (ITE) estimation for imbalanced data.
+BV-NICE is designed for individualized treatment effect (ITE) estimation for observational causal inference.
 
 You can clone this repository by running: 
 
 ```
 git clone https://github.com/DannieLu/BV-NICE.git
+```
+
+
+## Citation
+
+If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
+
+```
+@article{lu2020reconsidering,
+  title={Reconsidering Generative Objectives For Counterfactual Reasoning},
+  author={Lu, Danni and Tao, Chenyang and Chen, Junya and Li, Fan and Guo, Feng and Carin, Lawrence},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}
 ```
 
 ## Contents
@@ -22,7 +33,11 @@ This repository contains the following contents.
 Jupter notebook examples of our BV-NICE model and various baselines (CFR, BART, R-learner, EB-learner, Causal Forest, GANITE, etc.). 
 
 #### - Experiment codes
-Python codes used for our experiments. 
+Python codes used for our experiments. For example, to run BV-NICE with IHDP dataset ```0```, use the ```BVNICE.py``` file in folder: ```Experiments\IHDP\```:
+```
+python BVNICE.py 0
+```
+
 
 #### - Results and visualization
 Python codes used for the visualization of our results. 
@@ -34,13 +49,6 @@ The algorithm is built with:
 * Python (version 3.7 or higher)
 * Tensorflow (version 1.14.0)
 
-## Running the example dataset
-
-Here we present an example of BVNICE application using IHDP data
-
-```
-python bvnice_example.py
-```
 
 ## Installing third-party packages
 Some of our baseline models (e.g., BART, Causal Forest, GANITE) are based on third party implementations. We try to provide all native python implementations of competing models rather than calling R libraries as in the perfect_match package. Note some of these implementations are from unstable development versions of the packages, and we did find compatibility issues when we run the experiments. Please use the following commands to install the versions we have installed and used in our experiments. If they do not run successfully on your computer, just try it on another machine (with a different OS or python environment). 
@@ -60,19 +68,8 @@ The GANITE implementation was extracted from the [perfect_match](https://github.
 pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 ```
 
-
-
-## Citation
-
-If you reference or use our method, code or results in your work, please consider citing the [BV-NICE paper](https://proceedings.neurips.cc/paper/2020/file/f5cfbc876972bd0d031c8abc37344c28-Paper.pdf):
-
-```
-@article{lu2020reconsidering,
-  title={Reconsidering Generative Objectives For Counterfactual Reasoning},
-  author={Lu, Danni and Tao, Chenyang and Chen, Junya and Li, Fan and Guo, Feng and Carin, Lawrence},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
-}
-```
-
+## Datasets
+ACIC : https://jenniferhill7.wixsite.com/acic-2016/competition 
+IHDP1000: Originally from http://mit.edu/~fredrikj/files/IHDP-1000.tar.gz Since the original link no longer works, we provide a copy here for completeness. Please contact us if there is any redistribution concern. 
+JOBS: https://github.com/d909b/perfect_match/tree/master/perfect_match/data_access/jobs 
+NDS SHRP2: https://insight.shrp2nds.us (Need to apply for access (e.g., subbmitting research proposal))
