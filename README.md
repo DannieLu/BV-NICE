@@ -63,7 +63,7 @@ We have used the Causal Forest model (propensity forest & double-sample forest) 
 pip3 install git+https://github.com/kjung/scikit-learn.git --upgrade
 ```
 
-The GANITE implementation was extracted from the [perfect_match](https://github.com/d909b/perfect_match) package . So you do not really need to install the perfect_match package to run our experiments, but we strongly recommend so. 
+The GANITE implementation was extracted from the [perfect_match](https://github.com/d909b/perfect_match) package. Although you do not really need to install the perfect_match package to run our experiments, we strongly recommend so. 
 ```
 pip3 install git+https://github.com/d909b/perfect_match.git --upgrade
 ```
